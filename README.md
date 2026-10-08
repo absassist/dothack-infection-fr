@@ -66,14 +66,8 @@ Si votre ISO a une autre empreinte MD5, le patch ne s'appliquera pas (autre vers
 - Les termes propres à « The World » restent en anglais, comme dans l'anime : *Chaos Gate*, *Gate Out*, *Data Drain*, *Virus Core*, *Root Town*, *Recorder*, *Elf's Haven*.
 - Les noms propres, les mots inventés des sorts (*Repth*, *Vak Kruz*…) et les noms japonais d'armes sont conservés.
 - Les mots-clés des zones (ex. *Bursting Passed Over Aqua Field*) restent en anglais : le jeu assemble les noms de zone mot par mot.
-- Tutoiement entre joueurs ; vouvoiement pour CC Corp, les messages système, les vendeurs et certains personnages (Piros, Ryoko Terajima).
 
 Le lexique complet est dans [GLOSSAIRE.md](GLOSSAIRE.md).
-
-### Limites connues
-
-- Les mentions de copyright de l'écran titre et le générique de fin restent en anglais.
-- 52 images d'articles de news sont des restes japonais des volumes suivants, jamais affichées dans ce volume : non traitées.
 
 ## 🐞 Signaler un problème
 
