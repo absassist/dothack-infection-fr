@@ -5,7 +5,7 @@ Le patch s'applique à la version USA du jeu et se joue sur l'émulateur **PCSX2
 
 *Aussi connu sous les noms : dot hack Infection, .hack Infection Part 1, .hack//Infection Vol. 1, .hack Infection FR, traduction .hack PS2.*
 
-**[📥 Télécharger le patch FR](../../releases/latest)** · [Site du projet](https://omekoo.github.io/dothack-infection-fr/) · [Installation](#-installation) · [Ce qui est traduit](#-ce-qui-est-traduit) · [Signaler un bug](#-signaler-un-problème)
+**[📥 Télécharger le patch FR](../../releases/latest)** · [Site du projet](https://absassist.github.io/dothack-infection-fr/) · [Installation](#-installation) · [Ce qui est traduit](#-ce-qui-est-traduit) · [Signaler un bug](#-signaler-un-problème)
 
 ![.hack//Infection en français : écran titre avec le menu traduit (Nouveau, Charger, Options)](captures/ecran-titre.png)
 
