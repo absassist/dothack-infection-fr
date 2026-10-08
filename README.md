@@ -1,8 +1,13 @@
-# .hack//Infection — Traduction française (PS2)
+# .hack//Infection : traduction française (patch FR PS2)
 
-Patch de traduction française non officielle de **.hack//Infection** (PlayStation 2, version USA).
+**Patch FR non officiel de .hack//Infection** sur PlayStation 2 : jouez à .hack//Infection entièrement en français, histoire, mails, forum, menus, objets et monstres compris.
+Le patch s'applique à la version USA du jeu et se joue sur l'émulateur **PCSX2**.
 
-![Écran titre en français](captures/ecran-titre.png)
+*Aussi connu sous les noms : dot hack Infection, .hack Infection Part 1, .hack//Infection Vol. 1, .hack Infection FR, traduction .hack PS2.*
+
+**[📥 Télécharger le patch FR](../../releases/latest)** · [Site du projet](https://omekoo.github.io/dothack-infection-fr/) · [Installation](#-installation) · [Ce qui est traduit](#-ce-qui-est-traduit) · [Signaler un bug](#-signaler-un-problème)
+
+![.hack//Infection en français : écran titre avec le menu traduit (Nouveau, Charger, Options)](captures/ecran-titre.png)
 
 ---
 
@@ -19,7 +24,7 @@ Patch de traduction française non officielle de **.hack//Infection** (PlayStati
 | | |
 |---|---|
 | Jeu | .hack//Infection (Part 1) |
-| Version | **USA** — SLUS-202.67 |
+| Version | **USA** (SLUS-202.67) |
 | Format | ISO |
 | MD5 de l'ISO d'origine | `eca5b2c41b7833ee38d489002c7aabc4` |
 
@@ -27,22 +32,22 @@ Si votre ISO a une autre empreinte MD5, le patch ne s'appliquera pas (autre vers
 
 ## 📥 Installation
 
-1. Téléchargez le dernier patch `dothack-infection-fr.xdelta` dans les [Releases](../../releases).
+1. Téléchargez le dernier patch `dothack-infection-fr.xdelta` dans les [Releases](../../releases/latest).
 2. Appliquez-le sur votre ISO USA avec l'une de ces méthodes :
 
-   **Méthode 1 — Delta Patcher (Windows, Linux, macOS)**
+   **Méthode 1 : Delta Patcher (Windows, Linux, macOS)**
    - Téléchargez [Delta Patcher](https://github.com/marco-calautti/DeltaPatcher/releases).
    - *Original file* : votre ISO USA. *XDelta patch* : `dothack-infection-fr.xdelta`.
    - Cliquez sur *Apply patch*.
    - ⚠️ Delta Patcher modifie le fichier d'origine : travaillez sur une **copie** de votre ISO.
 
-   **Méthode 2 — en ligne, sans rien installer**
+   **Méthode 2 : en ligne, sans rien installer**
    - Ouvrez [Rom Patcher JS](https://www.marcrobledo.com/RomPatcher.js/).
    - *ROM file* : votre ISO USA. *Patch file* : `dothack-infection-fr.xdelta`.
    - Cliquez sur *Apply patch* et enregistrez la nouvelle ISO.
    - L'ISO fait 2,5 Go : selon le navigateur et la RAM, ça peut échouer. Dans ce cas, utilisez la méthode 1.
 
-   **Méthode 3 — script Windows fourni**
+   **Méthode 3 : script Windows fourni**
    - Voir le dossier [`patcher/`](patcher/) : glissez votre ISO sur `appliquer_patch.bat`.
 
 3. Lancez l'ISO patchée dans PCSX2.
@@ -89,3 +94,9 @@ Voir [CREDITS.md](CREDITS.md).
 Patch, traductions et outils sous licence **[CC BY-NC-SA 4.0](LICENSE.md)** : partage et modification autorisés avec crédit, pas d'usage commercial, même licence pour les dérivés.
 
 *.hack//Infection* © 2001-2002 BANDAI / CyberConnect2. Projet de fans sans lien avec les ayants droit.
+
+---
+
+## 🇬🇧 English
+
+**French translation patch for .hack//Infection (PS2, NTSC-U / SLUS-202.67).** Apply `dothack-infection-fr.xdelta` from the [Releases](../../releases/latest) to your own USA ISO with Delta Patcher or Rom Patcher JS, then play in PCSX2. No game files are distributed.
