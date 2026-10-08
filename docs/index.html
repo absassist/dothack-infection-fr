@@ -56,7 +56,15 @@ ol li,ul li{margin:6px 0}
 code{background:var(--panel);border:1px solid var(--line);border-radius:4px;padding:1px 6px;font-size:14px;word-break:break-all}
 .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:12px}
 .card{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:14px 16px}
-.card b{display:block;color:var(--accent2);margin-bottom:4px}
+.card b{display:block;color:var(--accent2);margin-bottom:6px;font-size:17px}
+.card ul{margin:0;padding-left:18px;color:var(--muted);font-size:15px}
+.card li{margin:4px 0}
+.intro{color:var(--muted);margin:0 0 20px}
+.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:12px;margin:0 0 20px}
+.stats div{background:linear-gradient(160deg,#2a1a0c,#17130f);border:1px solid #5a3a16;border-radius:10px;padding:14px 16px}
+.stats b{display:block;font-size:30px;line-height:1.1;color:var(--accent)}
+.stats span{color:var(--muted);font-size:14px}
+.note{color:var(--muted);font-size:14px;margin:20px 0 0}
 .warn{background:#2a1a0c;border:1px solid #5a3a16;border-radius:10px;padding:14px 16px}
 footer{padding:32px 0 48px;color:var(--muted);font-size:14px}
 </style>
@@ -64,7 +72,7 @@ footer{padding:32px 0 48px;color:var(--muted);font-size:14px}
 <body>
 <header>
   <div class="wrap">
-    <span class="tag">Patch FR · PS2 · Gratuit</span>
+    <span class="tag">Patch FR · PlayStation 2</span>
     <h1><span>.hack//Infection</span> en français</h1>
     <p class="lead">Traduction française complète de .hack//Infection (PlayStation 2) : l'histoire, les mails, le forum, les menus, les objets et les monstres. Un patch à appliquer sur votre ISO USA, jouable sur PCSX2.</p>
     <a class="btn" href="https://github.com/omekoo/dothack-infection-fr/releases/latest">Télécharger le patch FR</a>
@@ -77,14 +85,28 @@ footer{padding:32px 0 48px;color:var(--muted);font-size:14px}
 <main class="wrap">
   <section>
     <h2>Ce qui est traduit en français</h2>
-    <div class="grid">
-      <div class="card"><b>Histoire</b>Dialogues, cinématiques et sous-titres de .hack//Infection.</div>
-      <div class="card"><b>Bureau</b>326 mails, 294 réponses de Kite, actualités et menus du bureau.</div>
-      <div class="card"><b>Forum</b>Tous les messages et titres des fils du forum de The World.</div>
-      <div class="card"><b>The World</b>PNJ des villes, bulles de groupe, combats, tutoriels.</div>
-      <div class="card"><b>Objets et monstres</b>Objets, armes, armures, monstres, boutiques, compétences.</div>
-      <div class="card"><b>Graphismes</b>Menu de l'écran titre, Épitaphe du Crépuscule, articles de news, accents.</div>
+    <p class="intro">Tout ce que vous lisez dans .hack//Infection, de l'écran titre au dernier mail. Le texte a été adapté, pas traduit mot à mot : chaque personnage garde son ton, les messages de CC Corp restent formels, les joueurs du forum parlent comme des joueurs.</p>
+    <div class="stats">
+      <div><b>326</b><span>mails</span></div>
+      <div><b>341</b><span>messages du forum</span></div>
+      <div><b>5 600+</b><span>répliques et textes en jeu</span></div>
+      <div><b>1 200+</b><span>noms d'objets, armes et monstres</span></div>
     </div>
+    <div class="grid">
+      <div class="card"><b>L'histoire</b>
+        <ul><li>Tous les dialogues de l'aventure de Kite</li><li>Les cinématiques et leurs sous-titres</li><li>Les messages d'Aura, d'Helba et de Lios</li></ul></div>
+      <div class="card"><b>Le bureau</b>
+        <ul><li>Les 326 mails et les 294 réponses de Kite</li><li>Les articles de news, redessinés</li><li>Les titres des vidéos, musiques et fonds d'écran</li></ul></div>
+      <div class="card"><b>Le forum</b>
+        <ul><li>Les 341 messages de The World</li><li>Les titres des fils de discussion</li><li>Rumeurs, astuces et indices de mots-clés</li></ul></div>
+      <div class="card"><b>Dans The World</b>
+        <ul><li>Les PNJ des villes et les boutiques</li><li>Les bulles de groupe et les répliques de combat</li><li>Les tutoriels, les Livres Ryu, les Grunty</li></ul></div>
+      <div class="card"><b>Objets et combats</b>
+        <ul><li>Objets, armes, armures et parchemins</li><li>Monstres et compétences</li><li>Descriptions et statistiques</li></ul></div>
+      <div class="card"><b>Interface et graphismes</b>
+        <ul><li>Écran titre, menus, options, inscription</li><li>L'Épitaphe du Crépuscule redessinée</li><li>Accents français ajoutés à la police du jeu</li></ul></div>
+    </div>
+    <p class="note">Restent en anglais, comme dans l'anime : les termes propres à The World (<i>Chaos Gate</i>, <i>Gate Out</i>, <i>Data Drain</i>, <i>Virus Core</i>), les noms propres et les mots-clés des zones, que le jeu assemble mot par mot.</p>
   </section>
 
   <section>
