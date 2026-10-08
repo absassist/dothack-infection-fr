@@ -1,0 +1,25 @@
+# Fichiers du jeu : ne jamais les publier
+*.iso
+*.ISO
+*.bin
+*.BIN
+*.PRG
+*.prg
+SLUS_*
+romhack/data/
+romhack/out/
+romhack/news_fr/
+romhack/*.json
+romhack/*.pkl
+romhack/*.gz*
+romhack/*.ccs
+romhack/*.cmp
+romhack/*.txt
+romhack/*.log
+
+# Patch : distribue via les Releases GitHub
+*.xdelta
+
+# Python
+__pycache__/
+*.pyc
